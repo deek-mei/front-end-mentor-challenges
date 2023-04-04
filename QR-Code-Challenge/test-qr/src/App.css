@@ -7,7 +7,7 @@
 
 img {
   border-radius: 25px;
-  width: 100%
+  width: 60%
 }
 
 .card {
@@ -15,11 +15,11 @@ img {
   background-color: hsl(0, 0%, 100%);
   box-shadow: 15px 15px 5px 5px hsl(211.9, 41%, 84.7%);
   padding: 15px;
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 80vh;
 }
 
 h1 {
@@ -41,6 +41,10 @@ p {
 @media (min-width: 769px) and (max-width: 1024px) {
   .card {
     max-width: 70%;
+  }
+
+  .img {
+    width: 90%;
   }
 }
 
