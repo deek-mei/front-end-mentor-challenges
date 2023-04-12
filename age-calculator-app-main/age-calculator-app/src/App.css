@@ -6,6 +6,40 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type=text] {
   -moz-appearance: textfield;
+}
+
+.inputBar {
+  font-family: 'Poppins';
+}
+
+.age-group {
+  font-family: 'Poppins-ExtraBold';
+  font-size: 32px;
+}
+
+.error {
+  color: hsl(0, 100%, 67%);
+}
+
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url('./assets/fonts/Poppins-ExtraBoldItalic.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+button {
+  border-radius: 35px;
+  background-color: hsl(259, 100%, 65%);
+  padding: 10px 10px 10px 10px;
+}
+
+.blank-age {
+  color: hsl(259, 100%, 65%);
 }
